@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <header class="nav">
+        <a href="#">Angelo.</a>
+        <navbar>
+            <a href="index.html">HOME</a>
+            <a href="aboutme.html" class="active">ABOUT ME</a>
+            <a href="skills.html">SKILLS</a>
+            <a href="contact.html"> CONTACT ME</a>
+        </navbar>
+    </header>
+
+    <div class="textbx">
+        
+        <div class="cont-textbx">
+            <h1>Who am I?</h1>
+            <p>I am Angelo James A. Catabay
+                I'm 19 years old, and I live in Taytay, Rizal.</p>
+
+            <P>I am currently studying computer science at National University, Manila.</P>
+
+            <p>My hobbies are playing musical instruments (like the drums and ukulele), I like playing Videogames as a way to have fun and relax.</p>
+
+            <h2>Fun Fact:</h2>
+
+            <p>- I once fullstack coded a website for our class thesis and practice research on my own (with the help of redbull).</p>
+        </div>
+            <img src="RanPic-2.jpg" class="ran">
+    </div>
+</body>
+</html>
+<style>
+    *
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 30px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: solid black;
+}
+
+.nav a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+    font-style: italic;
+    color: black;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+
+.nav a:hover
+{
+    transition: 0.3s;
+    background-color: rgb(0, 5, 98);
+    color: white;
+}
+
+.active
+{
+    background-color: rgb(14, 143, 255);
+}
+
+.textbx
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 600px;
+    width: 100%;
+}
+
+.cont-textbx
+{
+    max-width:600px;
+    height: auto; 
+    max-height: 400px;
+    text-align: center;
+}
+
+.cont-textbx h1
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.cont-textbx p
+{
+    font-size: 20px;
+}
+
+.ran
+{
+    max-width: 600px;
+    height: auto;
+    pointer-events: none;
+}
+</style>
